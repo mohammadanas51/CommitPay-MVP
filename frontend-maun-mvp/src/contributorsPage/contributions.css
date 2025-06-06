@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap');
+
+.commitpay-contributions {
+    font-family: 'Poppins', sans-serif;
+    background-color: #161618;
+    padding: 2rem;
+    min-height: 100vh;
+    color: #f0f0f0;
+    /* font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; */
+  }
+  
+  .commitpay-contributions-heading {
+    font-size: 2rem;
+    margin-bottom: 1.5rem;
+    color: #ffffff;
+    border-bottom: 2px solid #2e2e33;
+    padding-bottom: 0.5rem;
+  }
+  
+  .commitpay-contributions-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .commitpay-contributions-item {
+    background-color: #1e1e21;
+    padding: 1rem;
+    border-radius: 10px;
+    margin-bottom: 1rem;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+  }
+  
+  .commitpay-contributions-item:hover {
+    background-color: #27272a;
+    transform: scale(1.01);
+  }
+  
+  .commitpay-contributions-link {
+    text-decoration: none;
+    color: #61dafb;
+    font-weight: 500;
+  }
+  
+  .commitpay-contributions-link:hover {
+    text-decoration: underline;
+  }
+  
+  .commitpay-loading,
+  .commitpay-error {
+    color: #f0f0f0;
+    text-align: center;
+    padding: 2rem;
+    font-size: 1.2rem;
+  }
+  

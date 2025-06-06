@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap');
+
+#contributor-heading {
+    font-family: 'Poppins', sans-serif;
+    color: white;
+    font-weight: 600;
+    font-size: 45px;
+    text-align: center;
+}
+
+.btns {
+    display: flex;
+    align-items: center;
+    flex-direction: column;  
+    gap: 20px;  
+    justify-content: center;
+}
+
+#login-btn {
+    background-color: #ffffff;
+    color: #161618;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    padding: 12px 24px;
+    border: none;
+    border-radius: 8px;
+    box-shadow: 0 4px 12px rgba(255, 255, 255, 0.1);
+    cursor: pointer;
+    transition: transform 0.25s ease, box-shadow 0.25s ease;
+}
+
+#login-btn:hover {
+    background-color: #e1e1e1;
+    transform: translateY(-5px) scale(1.15);
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.3);
+}
+
+#go-back-to-home-page {
+    background-color: #ffffff;
+    color: #007bff;  /* Subtle blue for contrast */
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    padding: 12px 24px;
+    border: none;
+    border-radius: 8px;
+    box-shadow: 0 4px 12px rgba(255, 255, 255, 0.1);
+    cursor: pointer;
+    transition: transform 0.25s ease, box-shadow 0.25s ease;
+    margin-top: 10px;  /* Add space between buttons */
+}
+
+#go-back-to-home-page:hover {
+    background-color: #e1e1e1;
+    color: #0056b3;  /* Darker blue on hover */
+    transform: translateY(-5px) scale(1.15);
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.3);
+}

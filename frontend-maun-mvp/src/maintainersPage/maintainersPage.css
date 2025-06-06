@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap');
+/* Maintainer Container */
+.maintainer-container {
+    background-color: #161618;
+    color: #ffffff;
+    padding: 20px;
+    text-align: center;
+    border-radius: 8px;
+    max-width: 600px;
+    margin: 0 auto;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Maintainer Heading */
+  .maintainer-heading {
+    font-family: 'Poppins', sans-serif;
+    font-size: 2rem;
+    margin-bottom: 20px;
+  }
+  
+  /* Avatar Styling */
+  .maintainer-avatar {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin-bottom: 15px;
+  }
+  
+  /* Username Text */
+  .maintainer-username {
+    font-size: 1.1rem;
+    margin-bottom: 20px;
+  }
+  
+  /* Actions Container (for buttons) */
+  .maintainer-actions {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    margin-top: 20px;
+  }
+  
+  /* Onboarding Button */
+  .onboarding-btn {
+    background-color: #4CAF50; /* Green color */
+    color: white;
+    padding: 10px 20px;
+    font-size: 1rem;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .onboarding-btn:hover {
+    background-color: #45a049; /* Darker green on hover */
+  }
+  
+  /* Logout Button */
+  .logout-btn {
+    background-color: #f44336; /* Red color */
+    color: white;
+    padding: 10px 20px;
+    font-size: 1rem;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .logout-btn:hover {
+    background-color: #e53935; /* Darker red on hover */
+  }
+  

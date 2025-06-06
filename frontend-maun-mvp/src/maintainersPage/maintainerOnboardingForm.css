@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap');
+
+/* Main container */
+.maintainer-onboarding {
+  padding: 20px 15px;
+  max-width: 90%;
+  margin: 20px auto;
+  background-color: #1f1f1f;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.25);
+  font-family: 'Poppins', sans-serif;
+}
+
+/* Heading */
+.maintainer-onboarding h2 {
+  font-size: 1.6rem;
+  color: #ffcb05;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+/* Form Elements */
+.maintainer-onboarding input,
+.maintainer-onboarding select,
+.maintainer-onboarding textarea {
+  width: 100%;
+  padding: 12px;
+  margin-bottom: 12px;
+  background-color: #2b2b2b;
+  color: #ffffff;
+  border: 1px solid #444;
+  border-radius: 8px;
+  font-size: 0.9rem;
+  transition: border-color 0.3s ease;
+  box-sizing: border-box;
+}
+
+.maintainer-onboarding input:focus,
+.maintainer-onboarding select:focus,
+.maintainer-onboarding textarea:focus {
+  border-color: #ffcb05;
+  outline: none;
+}
+
+/* Label for select */
+.maintainer-onboarding label {
+  font-size: 0.9rem;
+  margin: 8px 0 4px;
+  color: #ffcb05;
+  display: block;
+}
+
+/* Submit Button */
+.maintainer-onboarding .submit-btn {
+  width: 100%;
+  background-color: #ffcb05;
+  color: #1f1f1f;
+  font-weight: 600;
+  padding: 12px;
+  font-size: 1rem;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.maintainer-onboarding .submit-btn:hover {
+  background-color: #ffb700;
+}
+
+/* Optional: Add subtle spacing between conditional bounty field and dropdown */
+.maintainer-onboarding select + input {
+  margin-top: -4px;
+}
+
+/* Resize for textarea */
+.maintainer-onboarding textarea {
+  resize: vertical;
+  min-height: 80px;
+}
+
+/* Tablet and larger screens */
+@media (min-width: 768px) {
+  .maintainer-onboarding {
+    padding: 30px 20px;
+    max-width: 700px;
+    margin: 40px auto;
+  }
+
+  .maintainer-onboarding h2 {
+    font-size: 1.8rem;
+    margin-bottom: 30px;
+  }
+
+  .maintainer-onboarding input,
+  .maintainer-onboarding select,
+  .maintainer-onboarding textarea {
+    padding: 14px;
+    margin-bottom: 16px;
+    font-size: 1rem;
+  }
+
+  .maintainer-onboarding label {
+    font-size: 1rem;
+    margin: 10px 0 6px;
+  }
+
+  .maintainer-onboarding .submit-btn {
+    padding: 14px;
+    font-size: 1.1rem;
+  }
+
+  .maintainer-onboarding textarea {
+    min-height: 100px;
+  }
+}

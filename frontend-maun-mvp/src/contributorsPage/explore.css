@@ -1,0 +1,62 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap');
+
+.explore-container {
+    font-family: 'Poppins', sans-serif;
+    padding: 2rem;
+    background-color: #121212;
+    color: white;
+  }
+  
+  .gig-list {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+  }
+  
+  .gig-card {
+    background-color: #1e1e1e;
+    padding: 1rem;
+    border-radius: 10px;
+    border: 1px solid #333;
+  }
+  
+  .gig-card h3 {
+    margin-top: 0;
+    font-size: 1.2rem;
+  }
+  
+  .label {
+    background-color: #333;
+    color: #00bcd4;
+    font-size: 0.75rem;
+    padding: 3px 8px;
+    margin-right: 5px;
+    border-radius: 12px;
+  }
+  
+  a {
+    color: #00bcd4;
+    text-decoration: none;
+  }
+  
+  a:hover {
+    text-decoration: underline;
+  }
+
+  .logout-button {
+    background-color: #ff1744;
+    color: white;
+    border: none;
+    padding: 8px 16px;
+    font-size: 0.9rem;
+    border-radius: 6px;
+    cursor: pointer;
+    margin-bottom: 1rem;
+  }
+  
+  .logout-button:hover {
+    background-color: #f01440;
+  }
+  
+  

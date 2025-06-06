@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap');
+
+
+#main-heading{
+    text-align: center ;
+    color: white;
+    font-family:'Poppins', sans-serif;
+    font-weight: 600;
+    font-size: 45px;
+}
+
+#msg{
+    text-align: center ;
+    color: white;
+    font-family:'Poppins', sans-serif;
+    font-weight: 400;
+    font-size: 25px;
+}
+
+#cta-btn-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    
+}
+
+#contributor-btn{
+    background-color:#ECFFDC;
+    font-family:'Poppins', sans-serif;
+    font-weight: 500;
+    color: #DF1212;
+    padding: 16px 24px; 
+    font-size: 18px;
+    border-radius: 10px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    cursor: pointer;
+}
+
+#maintainer-btn{
+    background-color: #FAFA33;
+    font-family:'Poppins', sans-serif;
+    font-weight: 500;
+    color: black;
+    padding: 16px 24px; 
+    font-size: 18px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+
+#contributor-btn,
+#maintainer-btn {
+    transition: transform 0.25s ease, box-shadow 0.25s ease;
+}
+
+#contributor-btn:hover,
+#maintainer-btn:hover {
+    transform: translateY(-5px) scale(1.15);
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.3);
+}
+
