@@ -20,8 +20,9 @@ dist-ssr/
 *.local
 
 # Environment files
-**/.env
-
+.env
+frontend-mvp/.env
+backend-mvp/.env
 # Editor directories and system files
 .vscode/*
 !.vscode/extensions.json
