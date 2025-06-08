@@ -37,7 +37,7 @@ const MaintainersDashboard = () => {
     // Fetch issues from the backend
     const fetchIssues = async () => {
       try {
-        const response = await axios.get('http://localhost:5000/issues/all');
+        const response = await axios.get(`${import.meta.env.VITE_BACKEND_URL}/issues/all`);
         setIssues(response.data);
       } catch (error) {
         console.error('Error fetching issues:', error);
