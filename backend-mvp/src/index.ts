@@ -10,10 +10,16 @@ dotenv.config();
 
 const app = express();
 
+const allowedOrigins = [
+  'http://localhost:5173', // for local frontend dev
+  'https://commitpay-mvp.web.app' // for deployed Firebase frontend
+];
+
 app.use(
   cors({
-    origin: 'http://localhost:5173', 
+    origin: allowedOrigins,
     methods: ['GET', 'POST'],
+    credentials: true, // 🔥 important for OAuth flows
   })
 );
 

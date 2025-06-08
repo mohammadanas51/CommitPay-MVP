@@ -69,7 +69,7 @@ router.get("/github/callback", async (req, res) => {
 
     // Step 4: Redirect to frontend with user data
     const redirectPath = role === "maintainer" ? "maintainers-dashboard" : "Contributor-Pre-Signup";
-    res.redirect(`http://localhost:5173/${redirectPath}?user=${encodeURIComponent(JSON.stringify({
+    res.redirect(`https://commitpay-mvp.web.app/${redirectPath}?user=${encodeURIComponent(JSON.stringify({
       githubId,
       username,
       role,
